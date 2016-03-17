@@ -1,0 +1,156 @@
+/*@import url(http://fonts.googleapis.com/css?family=Tangerine);
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url("assets/photos/T_P_B.jpg") no-repeat fixed center;
+  mask: url("assets/photos/T_P_B.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: "Ubuntu";
+  text-align: center;
+}
+
+.header {
+  max-width: 425px;
+  margin: 0 auto;
+  color: #1951BE;
+  padding-top: 25px;
+}
+
+.content {
+  max-width: 425px;
+  margin: 0 auto;
+  color: #1951BE;
+  padding-top: 20px;
+}
+
+.profilePic {
+  height: 200px;
+  width: 200px;
+  background: url("assets/photos/Bobby_linkedin_Color.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  border: 6px solid #1951BE;
+  margin: 0 auto;
+  transition: all .5s ease-in-out;
+}
+
+.profilePic:hover, .profilePic:focus {
+  height: 215px;
+  width: 215px;
+}
+
+#greeting {
+  color: black;
+  opacity: 0.85;
+}
+
+p {
+  font-size: 25px;
+  margin-top: 10px;
+  line-height: 175%;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+.icons a {
+  text-decoration: none;
+  font-size: 45px;
+  color: #1951BE;
+  transition: font-size .5s ease-in-out;
+}
+.icons a:hover, .icons a:focus {
+  color: #48DAF0;
+  font-size: 55px;
+}
+
+.modalAnchors a {
+  text-decoration: none;
+  font-size: 45px;
+  color: #1951BE;
+  transition: font-size .5s ease-in-out;
+}
+.modalAnchors a:hover, .modalAnchors a:focus {
+  color: #FB7BA2;
+  font-size: 55px;
+}
+
+.typedModal {
+  text-decoration: none;
+  color: #FF804D;
+}
+
+.typedModal:hover, .typedModal:focus {
+  text-decoration: none;
+  color: #48F0A8;
+  outline: none;
+}
+
+.tooltip {
+  font-family: "Lora";
+  font-size: 25px;
+}
+
+.modal {
+  border-radius: 5%;
+}
+
+#span {
+  background-color: #2F7EB6;
+  opacity: 0.70;
+}
+
+.modal-body {
+  background-color: #48DAF0;
+  opacity: 0.85;
+}
+
+.btn-primary {
+  border-radius: 0;
+  background-color: #F3004A;
+  border: 2px solid #FDA8C2;
+}
+
+.btn-primary:hover {
+  background-color: #FDA8C2;
+  border: 2px solid #F3004A;
+}
+
+/*Typed.js*/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.9s infinite;
+    -moz-animation: blink 0.9s infinite;
+    animation: blink 0.9s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
